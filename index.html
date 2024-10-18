@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad de la Información</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul.left {
+            display: flex;
+        }
+        nav ul.right {
+            display: flex;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #e94e77;
+        }
+        .profile-img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        /* Estilos de las secciones */
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info-image {
+            width: 40%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .info-image:hover {
+            transform: scale(1.05);
+        }
+        .info-text {
+            width: 55%;
+            padding-left: 20px;
+        }
+        .info-text h1 {
+            color: #333;
+        }
+        .info-text p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .btn-informacion {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #e94e77;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn-informacion:hover {
+            background-color: #a85d71 ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="left">
+                <li><a href="#">Alumno: Alvarado Gutierrez Edith Alejandra</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="seccion1.php" class="btn-seccion">Sección 1</a></li>
+                <li><a href="seccion2.php" class="btn-seccion">Sección 2</a></li>
+                <li><a href="seccion3.php" class="btn-seccion">Sección 3</a></li>
+                <li><a class="btn-inicio" href="index.html">Inicio</a></li>
+                <li><a href="#"><img src="Usuario.jpg" alt="Perfil" class="profile-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <img src="Seguridad1.png" alt="Seguridad de la Información" class="info-image">
+            <div class="info-text">
+                <h1>SEGURIDAD DE LA INFORMACIÓN</h1>
+                <p>¿Qué es la seguridad de la información? La seguridad de la información es el conjunto de medidas y prácticas que buscan proteger la confidencialidad, integridad y disponibilidad de los datos. En otras palabras, es el escudo que protege la información personal, empresarial o de cualquier otro tipo de los ciberataques, el acceso no autorizado y la pérdida de datos.</p>
+                <p>¿Por qué es importante la seguridad de la información? En la era digital, la información es un activo valioso. Ya sea la información personal, los datos de una empresa o los registros gubernamentales, todos son susceptibles de ser atacados. Los riesgos de no proteger adecuadamente la información incluyen: Pérdida financiera; Robo de identidad, fraudes, extorsiones; Daño a la reputación; Filtraciones de datos, violaciones de privacidad; Interrupción de los negocios; Ataques de ransomware, denegación de servicio; Cumplimiento normativo: Multas por no cumplir con las regulaciones de protección de datos.</p>
+                <a href="seccion1.php" class="btn-informacion">Leer más sobre seguridad de la información</a>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <img src="seguridad 2.jpg" alt="Sección 1" class="info-image">
+            <div class="info-text">
+                <h1>Sección 1</h1>
+                <p>Detalles sobre la primera sección del contenido de seguridad de la información.</p>
+                <a href="seccion1.php" class="btn-informacion">Leer más</a>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <img src="seguridad3.jpg" alt="Sección 2" class="info-image">
+            <div class="info-text">
+                <h1>Sección 2</h1>
+                <p>Detalles sobre la segunda sección del contenido de seguridad de la información.</p>
+                <a href="seccion2.php" class="btn-informacion">Leer más</a>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <img src="seguridad4.jpg" alt="Sección 3" class="info-image">
+            <div class="info-text">
+                <h1>Sección 3</h1>
+                <p>Detalles sobre la tercera sección del contenido de seguridad de la información.</p>
+                <a href="seccion3.php" class="btn-informacion">Leer más</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
